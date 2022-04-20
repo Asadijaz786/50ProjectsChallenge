@@ -8,7 +8,7 @@ This Repo contains 50 projects created with HTML, CSS and JavaScript. 😍
 | Sr. # | Project | Live Demo |
 | ------------- | ------------- | ------------ |
 | 1.  | [Expanding_Cards](https://github.com/Asadijaz786/50ProjectsChallenge/tree/main/Expanding_Cards) | [Demo](https://asadijaz786.github.io/50ProjectsChallenge/Expanding_Cards/)   |
-| 2.  |   |              |
+| 2.  | [Progress Steps](https://github.com/Asadijaz786/50ProjectsChallenge/tree/main/Progress_Steps)  | [Demo](https://asadijaz786.github.io/50ProjectsChallenge/Progress_Steps/)     |
 
 
 
