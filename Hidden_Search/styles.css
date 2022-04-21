@@ -28,6 +28,7 @@ body {
   padding: 16px;
   height: 50px;
   width: 50px;
+  border-radius: 50px;
   transition: width 0.35s ease;
 }
 
@@ -40,6 +41,7 @@ body {
   top: 0;
   left: 0;
   height: 50px;
+  border-radius: 50px;
   width: 50px;
   transition: transform 0.35s ease;
 }
@@ -51,8 +53,13 @@ body {
 
 .search.active .input {
   width: 240px;
+  border-radius: 40px;
 }
 
 .search.active .btn {
   transform: translateX(198px);
+}
+
+i {
+  color: #e11f1f;
 }
