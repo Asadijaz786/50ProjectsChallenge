@@ -10,7 +10,7 @@ This Repo contains 50 projects created with HTML, CSS and JavaScript. 😍
 | 1.  | [Expanding_Cards](https://github.com/Asadijaz786/50ProjectsChallenge/tree/main/Expanding_Cards) | [Demo](https://asadijaz786.github.io/50ProjectsChallenge/Expanding_Cards/)   |
 | 2.  | [Progress_Steps](https://github.com/Asadijaz786/50ProjectsChallenge/tree/main/Progress_Steps)  | [Demo](https://asadijaz786.github.io/50ProjectsChallenge/Progress_Steps/)     |
 | 3.  | [Rotating_Navigation](https://github.com/Asadijaz786/50ProjectsChallenge/tree/main/Rotating_Navigation)  | [Demo](https://asadijaz786.github.io/50ProjectsChallenge/Rotating_Navigation/)     |
-| 3.  | [Hidden_Search](https://github.com/Asadijaz786/50ProjectsChallenge/tree/main/Hidden_Search)  | [Demo](https://asadijaz786.github.io/50ProjectsChallenge/Hidden_Search/)     |
+| 4.  | [Hidden_Search](https://github.com/Asadijaz786/50ProjectsChallenge/tree/main/Hidden_Search)  | [Demo](https://asadijaz786.github.io/50ProjectsChallenge/Hidden_Search/)     |
 
 
 ### Support or Contact
