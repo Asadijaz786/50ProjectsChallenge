@@ -13,6 +13,7 @@ This Repo contains 50 projects created with HTML, CSS and JavaScript. 😍
 | 4.  | [Hidden_Search](https://github.com/Asadijaz786/50ProjectsChallenge/tree/main/Hidden_Search)  | [Demo](https://asadijaz786.github.io/50ProjectsChallenge/Hidden_Search/)     |
 | 5.  | [Blurry_Load](https://github.com/Asadijaz786/50ProjectsChallenge/tree/main/Blurry_Load)  | [Demo](https://asadijaz786.github.io/50ProjectsChallenge/Blurry_Load/)     |
 | 6.  | [Github_Profile](https://github.com/Asadijaz786/50ProjectsChallenge/tree/main/Github_Profile)  | [Demo](https://asadijaz786.github.io/50ProjectsChallenge/Github_Profile/)     |
+| 7.  | [Scroll_Animation](https://github.com/Asadijaz786/50ProjectsChallenge/tree/main/Scroll_Animation)  | [Demo](https://asadijaz786.github.io/50ProjectsChallenge/Scroll_Animation/)     |
 
 ### Support or Contact
 
