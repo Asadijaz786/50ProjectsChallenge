@@ -24,24 +24,17 @@ body {
 }
 .container h1 {
   text-align: center;
-  margin-bottom: 30px;
-}
-.container h4 {
-  font-style: italic;
-  margin-bottom: 10px;
-  text-align: left;
-  font-size: 14px;
-  font-weight: lighter;
+  margin-bottom: 35px;
 }
 .container a {
   text-decoration: none;
-  color: rgb(164, 184, 251);
+  color: rgb(137, 165, 255);
 }
 .btn {
   cursor: pointer;
   display: inline-block;
   width: 100%;
-  background: rgb(131, 160, 255);
+  background: rgb(127, 157, 254);
   padding: 15px;
   font-family: inherit;
   font-size: 16px;
@@ -93,10 +86,11 @@ body {
 
 .form-control label span {
   display: inline-block;
-  font-size: 18px;
+  font-size: 16px;
   min-width: 5px;
 }
 .form-control input:focus + label span,
 .form-control input:valid + label span {
   color: rgb(164, 184, 251);
+  transform: translateY(-30px);
 }
