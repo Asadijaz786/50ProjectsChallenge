@@ -5,7 +5,7 @@
 }
 
 body {
-  background-image: linear-gradient(90deg, #ff9999, #ff9c5f);
+  background-image: linear-gradient(90deg, #99b9ff, #5f67ff);
   color: white;
   font-family: "Muli", sans-serif;
   display: flex;
@@ -18,7 +18,7 @@ body {
 }
 
 .container {
-  background-color: #ce4b1b69;
+  background-color: #4965e4;
   padding: 20px 40px;
   border-radius: 5px;
 }
@@ -35,13 +35,13 @@ body {
 }
 .container a {
   text-decoration: none;
-  color: rgb(244, 213, 213);
+  color: rgb(164, 184, 251);
 }
 .btn {
   cursor: pointer;
   display: inline-block;
   width: 100%;
-  background: rgb(255, 170, 131);
+  background: rgb(131, 160, 255);
   padding: 15px;
   font-family: inherit;
   font-size: 16px;
@@ -82,4 +82,21 @@ body {
 .form-control input:focus,
 .form-control input:valid {
   outline: none;
+  border-bottom-color: rgb(164, 184, 251);
+}
+
+.form-control label {
+  position: absolute;
+  top: 15px;
+  left: 0;
+}
+
+.form-control label span {
+  display: inline-block;
+  font-size: 18px;
+  min-width: 5px;
+}
+.form-control input:focus + label span,
+.form-control input:valid + label span {
+  color: rgb(164, 184, 251);
 }
