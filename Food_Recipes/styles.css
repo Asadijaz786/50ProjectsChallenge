@@ -5,8 +5,8 @@
 }
 
 :root {
-  --primary-color: #22254b;
-  --secondary-color: #373b69;
+  --primary-color: #f4837b;
+  --secondary-color: #f0bcbc;
 }
 
 body {
@@ -45,7 +45,7 @@ main {
   display: flex;
   flex-wrap: wrap;
 }
-.movie {
+.recipe {
   width: 300px;
   margin: 1rem;
   background-color: var(--secondary-color);
@@ -54,11 +54,11 @@ main {
   position: relative;
   overflow: hidden;
 }
-.movie img {
+.recipe img {
   width: 100%;
 }
 
-.movie-info {
+.food-info {
   color: white;
   display: flex;
   align-items: center;
@@ -67,38 +67,17 @@ main {
   letter-spacing: 0.5px;
 }
 
-.movie-info h3 {
+.food-info h3 {
   margin-top: 0;
-}
-
-.movie-info span {
-  background-color: var(--primary-color);
-  padding: 0.25rem 0.5rem;
-  border-radius: 3px;
-  font-weight: bold;
-}
-
-.movie-info span.green {
-  color: lightgreen;
-}
-.movie-info span.orange {
-  color: orange;
-}
-.movie-info span.red {
-  color: red;
+  color: white;
 }
 .overview {
-  background-color: white;
-  padding: 2rem;
-  position: absolute;
+  background-color: rgb(255, 255, 126);
+  padding: 1rem;
+  margin-top: 0;
   left: 0;
   bottom: 0;
   right: 0;
   max-height: 100%;
-  transform: translateY(101%);
   transition: transform 0.35s ease-in;
-}
-
-.movie:hover .overview {
-  transform: translateY(0);
 }
