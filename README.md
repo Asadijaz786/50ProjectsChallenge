@@ -20,6 +20,7 @@ This Repo contains 50 projects created with HTML, CSS and JavaScript. 😍
 | 11.  | [Food_Recipes](https://github.com/Asadijaz786/50ProjectsChallenge/tree/main/Food_Recipes)  | [Demo](https://asadijaz786.github.io/50ProjectsChallenge/Food_Recipes/)     |
 | 12.  | [FAQS](https://github.com/Asadijaz786/50ProjectsChallenge/tree/main/FAQS)  | [Demo](https://asadijaz786.github.io/50ProjectsChallenge/FAQS/)     |
 | 13.  | [Animated_Navigation](https://github.com/Asadijaz786/50ProjectsChallenge/tree/main/Animated_Navigation)  | [Demo](https://asadijaz786.github.io/50ProjectsChallenge/Animated_Navigation/)     |
+| 14.  | [Vertical_Slider](https://github.com/Asadijaz786/50ProjectsChallenge/tree/main/Vertical_Slider)  | [Demo](https://asadijaz786.github.io/50ProjectsChallenge/Vertical_Slider/)     |
 
 ### Support or Contact
 
