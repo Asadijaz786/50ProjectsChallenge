@@ -1,6 +1,6 @@
 const textEl = document.getElementById("text");
 const speedEl = document.getElementById("speed");
-const text = "Hasbi Rabbi JalAllah, Ma Fi Qalbi KhairUllah";
+const text = "JavaScript is the best!";
 
 let idx = 1;
 
