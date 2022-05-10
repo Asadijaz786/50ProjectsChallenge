@@ -21,8 +21,9 @@ This Repo contains 50 projects created with HTML, CSS and JavaScript. 😍
 | 12.  | [FAQS](https://github.com/Asadijaz786/50ProjectsChallenge/tree/main/FAQS)  | [Demo](https://asadijaz786.github.io/50ProjectsChallenge/FAQS/)     |
 | 13.  | [Animated_Navigation](https://github.com/Asadijaz786/50ProjectsChallenge/tree/main/Animated_Navigation)  | [Demo](https://asadijaz786.github.io/50ProjectsChallenge/Animated_Navigation/)     |
 | 14.  | [Vertical_Slider](https://github.com/Asadijaz786/50ProjectsChallenge/tree/main/Vertical_Slider)  | [Demo](https://asadijaz786.github.io/50ProjectsChallenge/Vertical_Slider/)     |
-| 15.  | [Stick_Navbar](https://github.com/Asadijaz786/50ProjectsChallenge/tree/main/Stick_Navbar)  | [Demo](https://asadijaz786.github.io/50ProjectsChallenge/Stick_Navbar/)     |
+| 15.  | [Sticky_Navbar](https://github.com/Asadijaz786/50ProjectsChallenge/tree/main/Sticky_Navbar)  | [Demo](https://asadijaz786.github.io/50ProjectsChallenge/Sticky_Navbar/)     |
 | 16.  | [Auto_Text_Effect](https://github.com/Asadijaz786/50ProjectsChallenge/tree/main/Auto_Text_Effect)  | [Demo](https://asadijaz786.github.io/50ProjectsChallenge/Auto_Text_Effect/)     |
+| 17.  | [Mobile_Nav](https://github.com/Asadijaz786/50ProjectsChallenge/tree/main/Mobile_Nav)  | [Demo](https://asadijaz786.github.io/50ProjectsChallenge/Mobile_Nav/)     |
 
 ### Support or Contact
 
