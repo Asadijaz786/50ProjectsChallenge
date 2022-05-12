@@ -24,6 +24,7 @@ This Repo contains 50 projects created with HTML, CSS and JavaScript. 😍
 | 15.  | [Sticky_Navbar](https://github.com/Asadijaz786/50ProjectsChallenge/tree/main/Sticky_Navbar)  | [Demo](https://asadijaz786.github.io/50ProjectsChallenge/Sticky_Navbar/)     |
 | 16.  | [Auto_Text_Effect](https://github.com/Asadijaz786/50ProjectsChallenge/tree/main/Auto_Text_Effect)  | [Demo](https://asadijaz786.github.io/50ProjectsChallenge/Auto_Text_Effect/)     |
 | 17.  | [Mobile_Nav](https://github.com/Asadijaz786/50ProjectsChallenge/tree/main/Mobile_Nav)  | [Demo](https://asadijaz786.github.io/50ProjectsChallenge/Mobile_Nav/)     |
+| 18.  | [Testimonial_Switch](https://github.com/Asadijaz786/50ProjectsChallenge/tree/main/Testimonial_Switch)  | [Demo](https://asadijaz786.github.io/50ProjectsChallenge/Testimonial_Switch/)     |
 
 ### Support or Contact
 
