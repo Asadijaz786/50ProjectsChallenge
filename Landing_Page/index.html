@@ -9,7 +9,57 @@
   </head>
   <body>
     <div class="container">
-      <h1>Landing Page</h1>
+      <header>
+        <nav>
+          <a href="#" src="images/logo2.png" alt="logo"></a>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+
+          <div class="hamburger">
+            <span class="line line-one"></span>
+            <span class="line line-two"></span>
+            <span class="line line-three"></span>
+          </div>
+        </nav>
+      </header>
+      <div class="content">
+        <div class="text">
+          <h1>Lays</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+            officia, quibusdam et porro itaque illo.
+          </p>
+          <a href="#">All Products</a>
+        </div>
+        <div class="image">
+          <img src="images/classic_lays.png" alt="" class="img" />
+        </div>
+        <div class="icons">
+          <img
+            src="images/barbecue_lays.png"
+            alt=""
+            onclick="imgChange(this.src); backgroundChange('white')"
+          />
+          <img
+            src="images/kpa6_lays.png"
+            alt=""
+            onclick="imgChange(this.src); backgroundChange('pink')"
+          />
+          <img
+            src="images/masala_lays.png"
+            alt=""
+            onclick="imgChange(this.src); backgroundChange('red')"
+          />
+          <img
+            src="images/salted_lays.png"
+            alt=""
+            onclick="imgChange(this.src); backgroundChange('cyan')"
+          />
+        </div>
+      </div>
     </div>
     <script src="script.js"></script>
   </body>
