@@ -1,10 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins");
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: "poppins", sans-serif;
 }
 
 .container {
@@ -73,28 +71,31 @@ nav ul li a:hover {
   background: #333;
   margin-block: 0.7rem;
   border-radius: 1rem;
-  transition: transform 0.5s opacity 0.3s;
+  transition: transform 0.5s, opacity 0.3s;
 }
 
-.hamburger .active .line-one {
-  transform: translateX(0.7rem) rotate(45deg);
+.hamburger.active .line-one {
+  transform: translateY(0.7rem) rotate(45deg);
 }
 
-.hamburger .active .line-two {
+.hamburger.active .line-two {
   transform: translateX(15px);
   opacity: 0;
 }
 
-.hamburger .active .line-three {
-  transform: translateX(-0.7rem) rotate(-45deg);
+.hamburger.active .line-three {
+  transform: translateY(-0.7rem) rotate(-45deg);
 }
 
 .content {
   width: 80%;
   height: 85%;
   margin: 0 auto;
+
   display: flex;
-  align-items: space-between;
+  align-items: center;
+  justify-content: space-between;
+
   position: relative;
 }
 
@@ -106,20 +107,20 @@ nav ul li a:hover {
 .content .text h1 {
   font-size: 90px;
 }
-
 .content .text p {
   font-size: 25px;
   margin-bottom: 2rem;
 }
-
 .content .text a {
   text-decoration: none;
   padding: 1rem 2rem;
   background: #333;
   color: white;
+
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 3px;
+
   border: 2px solid transparent;
   transition: 0.3s ease-in;
 }
@@ -143,6 +144,7 @@ nav ul li a:hover {
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
+
   display: flex;
   gap: 2rem;
 }
@@ -152,13 +154,12 @@ nav ul li a:hover {
   transition: 0.3s ease;
   cursor: pointer;
 }
-
 .icons img:hover {
   transform: translateY(-10px);
 }
 
 @media screen and (max-width: 950px) {
-  header nav li {
+  header nav ul {
     position: absolute;
     background: white;
     height: 100vh;
@@ -166,10 +167,12 @@ nav ul li a:hover {
     z-index: 3;
     left: 0;
     bottom: 0;
+
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+
     display: none;
   }
 
@@ -180,7 +183,6 @@ nav ul li a:hover {
   header nav ul li {
     display: block;
   }
-
   header nav ul li a {
     border-radius: 0;
     border: none;
@@ -207,21 +209,17 @@ nav ul li a:hover {
     justify-content: flex-start;
     gap: 2rem;
   }
-
   .content {
     margin: auto;
     width: 90%;
   }
-
   .content .text,
   .content .image {
     width: 100%;
   }
-
   .content .image {
     text-align: center;
   }
-
   .content .image img {
     width: 200px;
   }
@@ -231,25 +229,21 @@ nav ul li a:hover {
   .content {
     text-align: center;
   }
-
   .content .text h1 {
     font-size: 35px;
+    margin-bottom: 10px;
   }
-
   .content .text p {
     font-size: 16px;
   }
-
   .content .text a {
     font-size: 16px;
     padding: 0.5rem;
     letter-spacing: 2px;
   }
-
   .content .image img {
     width: 100px;
   }
-
   .icons {
     bottom: 2%;
   }
