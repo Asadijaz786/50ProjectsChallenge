@@ -27,6 +27,7 @@ This Repo contains 50 projects created with HTML, CSS and JavaScript. 😍
 | 18.  | [Testimonial_Switch](https://github.com/Asadijaz786/50ProjectsChallenge/tree/main/Testimonial_Switch)  | [Demo](https://asadijaz786.github.io/50ProjectsChallenge/Testimonial_Switch/)     |
 | 19.  | [Todo_List](https://github.com/Asadijaz786/50ProjectsChallenge/tree/main/Todo_List)  | [Demo](https://asadijaz786.github.io/50ProjectsChallenge/Todo_List/)     |
 | 20.  | [Landing_Page](https://github.com/Asadijaz786/50ProjectsChallenge/tree/main/Landing_Page)  | [Demo](https://asadijaz786.github.io/50ProjectsChallenge/Landing_Page/)     |
+| 21.  | [BMI_Calculator](https://github.com/Asadijaz786/50ProjectsChallenge/tree/main/BMI_Calculator)  | [Demo](https://asadijaz786.github.io/50ProjectsChallenge/BMI_Calculator/)     |
 
 ### Support or Contact
 
