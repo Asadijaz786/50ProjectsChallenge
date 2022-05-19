@@ -99,14 +99,12 @@ function newGame() {
   });
 }
 
-const labels = document.querySelector("label");
+const labels = document.querySelector(".label");
 
 labels.innerHTML = labels.innerText
   .split("")
   .map(
     (letter, idx) =>
-      `<span class='spanny' style="transition-delay:${
-        idx * 50
-      }ms">${letter}</span>`
+      `<span style="transition-delay:${idx * 20}ms">${letter}</span>`
   )
   .join("");

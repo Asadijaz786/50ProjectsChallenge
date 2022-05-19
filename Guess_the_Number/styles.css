@@ -60,28 +60,26 @@ p {
   width: 100%;
 }
 
-.form-control .guessField:focus,
-.form-control .guessField:valid {
+.form-control .guessField:focus {
   outline: none;
 }
 
-.form-control label {
+.form-control .label {
   position: absolute;
-  top: 11px;
+  top: 10px;
   letter-spacing: 1.5px;
   left: 10px;
 }
 
-.form-control label .spanny {
+.form-control .label span {
   display: inline-block;
   font-size: 16px;
   min-width: 5px;
   transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
-.form-control .guessField:focus + label .spanny,
-.form-control .guessField:valid + label .spanny {
+.form-control .guessField:focus + .label span {
   color: rgb(255, 255, 255);
-  transform: translateY(-30px);
+  transform: translateY(-33px);
 }
 
 .guessSubmit {
