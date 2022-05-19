@@ -22,6 +22,8 @@ body {
   color: aliceblue;
   padding: 20px 20px 30px 20px;
   border-radius: 25px;
+  width: 400px;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.3);
 }
 
 h1 {
@@ -34,27 +36,52 @@ p {
   font-size: 18px;
   letter-spacing: 1px;
 }
-
-.guess {
-  letter-spacing: 1px;
-  font-size: 18px;
+.wrapper {
+  background-color: #ef53539d;
+  margin: -20px -20px;
+  margin-bottom: -30px;
+  padding: 25px;
+  border-radius: 25px;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.3);
+}
+.form-control {
+  position: relative;
+  margin: 10px 0 0;
 }
 
 .guessField {
   background-color: #bc1e1e63;
   color: #eee;
+  display: block;
   border: 0;
   padding: 10px;
   border-radius: 25px;
   font-size: 14px;
+  width: 100%;
 }
 
-.guessField:hover {
-  background-color: #84242463;
-}
-
-.guessField:focus {
+.form-control .guessField:focus,
+.form-control .guessField:valid {
   outline: none;
+}
+
+.form-control label {
+  position: absolute;
+  top: 11px;
+  letter-spacing: 1.5px;
+  left: 10px;
+}
+
+.form-control label .spanny {
+  display: inline-block;
+  font-size: 16px;
+  min-width: 5px;
+  transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.form-control .guessField:focus + label .spanny,
+.form-control .guessField:valid + label .spanny {
+  color: rgb(255, 255, 255);
+  transform: translateY(-30px);
 }
 
 .guessSubmit {
@@ -79,12 +106,32 @@ p {
   transform: scale(0.95);
 }
 
-.wrapper {
-  background-color: #e9262663;
-  margin: -20px -20px;
-  margin-bottom: -30px;
-  padding: 25px;
+.lowOrHigh {
+  font-size: 18px;
+}
+
+#newGame {
+  background-color: #bc1e1e63;
+  color: #eee;
+  border: 0;
+  font-family: inherit;
+  font-size: 24px;
   border-radius: 25px;
-  transform: rotate(-12deg) 0.4s;
-  z-index: 4;
+  margin-top: 20px;
+  padding: 10px 15px;
+  cursor: pointer;
+  width: 100%;
+}
+
+#newGame:focus {
+  outline: none;
+}
+
+#newGame:hover {
+  background-color: #84242463;
+  transform: scale(0.95);
+}
+
+h3 {
+  letter-spacing: 2.5px;
 }

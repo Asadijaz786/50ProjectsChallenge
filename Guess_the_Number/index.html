@@ -19,12 +19,14 @@
 
     <div class="wrapper">
 
+      
       <form class="form">
-
-        <label for="guessField" class="guess">Guess A Number: </label>
-        
+        <div class="form-control">
           <input type="text" class="guessField" />
-
+  
+          <label for="guessField" >Enter Number</label>
+          
+        </div>
           <div class="submitBtn">
 
             <input
@@ -40,7 +42,7 @@
 
 <div class="results">
 
-  <p>Previous Guesses: <span class="guesses">0</span></p>
+  <p>Previous Guesses: <span class="guesses"></span></p>
   <p>Guess Remaining:  <span class="lastResult">10</span></p>
   <p class="lowOrHigh"></p>
 
