@@ -8,9 +8,49 @@
     <title>Guess the Number</title>
   </head>
   <body>
+
     <div class="container">
+
       <h1>Guess the Number</h1>
+      <p>(Guess the Number between 1 and 100).</p>
+      <p>(You have 10 attempts)</p>
+
+    </br>
+
+    <div class="wrapper">
+
+      <form class="form">
+
+        <label for="guessField" class="guess">Guess A Number: </label>
+        
+          <input type="text" class="guessField" />
+
+          <div class="submitBtn">
+
+            <input
+            type="submit"
+            class="guessSubmit"
+            id="submit"
+            value="Submit guess"
+          />
+
+          </div>
+
+      </form>
+
+<div class="results">
+
+  <p>Previous Guesses: <span class="guesses">0</span></p>
+  <p>Guess Remaining:  <span class="lastResult">10</span></p>
+  <p class="lowOrHigh"></p>
+
+</div>
+
     </div>
+      
+    </div>
+
     <script src="script.js"></script>
+
   </body>
 </html>

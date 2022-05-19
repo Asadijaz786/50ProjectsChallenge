@@ -1,12 +1,13 @@
-@import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Odibee+Sans");
 
 * {
   box-sizing: border-box;
 }
 
 body {
-  background-color: rgb(242, 242, 241);
-  font-family: "Muli", sans-serif;
+  background-image: linear-gradient(90deg, #ff9999, #ff9c5f);
+
+  font-family: "Odibee Sans", sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -17,4 +18,73 @@ body {
 
 .container {
   text-align: center;
+  background-color: rgb(250, 133, 94);
+  color: aliceblue;
+  padding: 20px 20px 30px 20px;
+  border-radius: 25px;
+}
+
+h1 {
+  color: #eee;
+  font-size: 42px;
+  letter-spacing: 3px;
+}
+
+p {
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+.guess {
+  letter-spacing: 1px;
+  font-size: 18px;
+}
+
+.guessField {
+  background-color: #bc1e1e63;
+  color: #eee;
+  border: 0;
+  padding: 10px;
+  border-radius: 25px;
+  font-size: 14px;
+}
+
+.guessField:hover {
+  background-color: #84242463;
+}
+
+.guessField:focus {
+  outline: none;
+}
+
+.guessSubmit {
+  background-color: #bc1e1e63;
+  color: #eee;
+  border: 0;
+  font-family: inherit;
+  font-size: 24px;
+  border-radius: 25px;
+  margin-top: 20px;
+  padding: 10px 15px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.guessSubmit:focus {
+  outline: none;
+}
+
+.guessSubmit:hover {
+  background-color: #84242463;
+  transform: scale(0.95);
+}
+
+.wrapper {
+  background-color: #e9262663;
+  margin: -20px -20px;
+  margin-bottom: -30px;
+  padding: 25px;
+  border-radius: 25px;
+  transform: rotate(-12deg) 0.4s;
+  z-index: 4;
 }
