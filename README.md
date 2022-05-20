@@ -28,6 +28,7 @@ This Repo contains 50 projects created with HTML, CSS and JavaScript. 😍
 | 19.  | [Todo_List](https://github.com/Asadijaz786/50ProjectsChallenge/tree/main/Todo_List)  | [Demo](https://asadijaz786.github.io/50ProjectsChallenge/Todo_List/)     |
 | 20.  | [Landing_Page](https://github.com/Asadijaz786/50ProjectsChallenge/tree/main/Landing_Page)  | [Demo](https://asadijaz786.github.io/50ProjectsChallenge/Landing_Page/)     |
 | 21.  | [BMI_Calculator](https://github.com/Asadijaz786/50ProjectsChallenge/tree/main/BMI_Calculator)  | [Demo](https://asadijaz786.github.io/50ProjectsChallenge/BMI_Calculator/)     |
+| 22.  | [Guess_the_Number](https://github.com/Asadijaz786/50ProjectsChallenge/tree/main/Guess_the_Number)  | [Demo](https://asadijaz786.github.io/50ProjectsChallenge/Guess_the_Number/)     |
 
 ### Support or Contact
 
