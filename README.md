@@ -30,6 +30,8 @@ This Repo contains 50 projects created with HTML, CSS and JavaScript. 😍
 | 21.  | [BMI_Calculator](https://github.com/Asadijaz786/50ProjectsChallenge/tree/main/BMI_Calculator)  | [Demo](https://asadijaz786.github.io/50ProjectsChallenge/BMI_Calculator/)     |
 | 22.  | [Guess_the_Number](https://github.com/Asadijaz786/50ProjectsChallenge/tree/main/Guess_the_Number)  | [Demo](https://asadijaz786.github.io/50ProjectsChallenge/Guess_the_Number/)     |
 | 23.  | [Password_Generator](https://github.com/Asadijaz786/50ProjectsChallenge/tree/main/Password_Generator)  | [Demo](https://asadijaz786.github.io/50ProjectsChallenge/Password_Generator/)     |
+| 24.  | [Contact_Form](https://github.com/Asadijaz786/50ProjectsChallenge/tree/main/Contact_Form)  | [Demo](https://asadijaz786.github.io/50ProjectsChallenge/Contact_Form/)     |
+
 
 ### Support or Contact
 
