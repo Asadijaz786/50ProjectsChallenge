@@ -195,3 +195,75 @@ textarea::placeholder {
   transition: 0.3s;
   color: white;
 }
+
+
+
+.close-modal {
+  position: absolute;
+  top: 1px;
+  right: 5px;
+  font-size: 34px;
+  color: #333;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+.tick{
+  position: relative;
+  font-size: 80px;
+  width: 90px;
+  height: 90px;
+  margin-top: -50px;
+  background-color: #eff0ff;
+  border-radius: 50%;
+  margin-left: 140px;
+  display: flex;
+  color: #0c75ff;
+  align-items: center;
+  justify-content:center ;
+}
+
+h1 {
+  font-size: 42px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+p {
+  font-size: 20px;
+  text-align: center;
+}
+
+
+/* -------------------------- */
+/* CLASSES TO MAKE MODAL WORK */
+.hidden {
+  display: none;
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+
+  background-color: white;
+  padding: 8px 20px 8px 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  z-index: 10;
+  background-color: #eff0ff;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(3px);
+  z-index: 5;
+}
