@@ -22,18 +22,21 @@
           Fill out the form, we will get back to you within 2 working days.
         </p>
         <div class="contacts">
-          <button class="phoneBtn btn">
+          <a href="tel:+0123 4567 8910" class="phoneBtn btn">
             <i class="fas fa-phone contact-icon"></i>
-            <p class="contact-text">+923466885966</p>
-          </button>
-          <button class="mailBtn btn">
+            <p class="contact-text">+0123 4567 8910</p>
+          </a>
+          <a href="mailto:example@services.com" class="mailBtn btn">
             <i class="fas fa-envelope contact-icon"> </i>
-            <p class="contact-text">ai@services.com</p>
-          </button>
-          <button class="addressBtn btn">
+            <p class="contact-text">example@services.com</p>
+          </a>
+          <a
+            href="address:street 5, west park, Carolina"
+            class="addressBtn btn"
+          >
             <i class="fas fa-location-dot contact-icon"></i>
             <p class="contact-text">street 5, west park, Carolina</p>
-          </button>
+          </a>
         </div>
 
         <div class="socials">
@@ -47,15 +50,16 @@
 
       <div class="form-container">
         <label for="name">Your Name </label>
-        <div class="input-icons">
-          <span class="fa-light fa-envelope icon"></span>
-          <input type="text" class="name" />
+        <div class="input-container">
+          <i class="fa fa-user icon"></i>
+          <input class="input-field" type="text" name="usrnm" />
         </div>
         <label for="name">Mail </label>
-        <div class="input-icons">
-          <span class="fa-light fa-envelope icon"></span>
-          <input type="text" class="mail" />
+        <div class="input-container">
+          <i class="fa fa-envelope icon"></i>
+          <input class="input-field" type="text" name="usrnm" />
         </div>
+
         <label for="name">Message </label>
         <textarea
           class="msg"

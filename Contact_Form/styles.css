@@ -44,13 +44,11 @@ h1 {
   color: #dddde6;
   font-size: 16px;
   text-align: left;
-  letter-spacing: 1px;
-}
+1}
 .p-text {
   margin-left: 10px;
   color: #9495b3;
   text-align: left;
-  letter-spacing: 0.5px;
 }
 .btn {
   display: flex;
@@ -61,10 +59,13 @@ h1 {
   width: fit-content;
   font-family: "Muli";
   padding: 0 15px;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 .btn:hover {
   border: 1px #0c75ff solid;
+  background-color: #021c3f82;
   transition: 0.3s ease-in;
 }
 
@@ -77,9 +78,8 @@ h1 {
 .socials {
   height: 90px;
   width: 70%;
-  margin-left: 0;
   padding-bottom: 20px;
-  margin-top: 20px;
+  margin-top: 60px;
 }
 .socials ul {
   display: flex;
@@ -92,10 +92,12 @@ h1 {
   text-decoration: none;
   color: #fff;
   font-size: 34px;
+  margin-left: -20px;
 }
 
 .socials ul li a:hover {
   color: #0c75ff;
+  transition: 0.5s;
 }
 
 .form-container {
@@ -107,45 +109,69 @@ h1 {
   flex-direction: column;
   background-color: #fff;
   padding: 28px;
-  margin-top: 20px;
+  margin-top: 6px;
+  margin-bottom: 0;
   border-radius: 8px;
 }
 
-.input-icons i {
-  position: absolute;
+label {
+  text-align: left;
+  margin-left: 3px;
+  margin-bottom: 6px;
 }
 
-.input-icons {
+.input-container {
+  display: flex;
   width: 100%;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
+  border: 2px #e0e0e9 solid;
+  border-radius: 8px;
 }
 
 .icon {
   padding: 10px;
-  min-width: 40px;
-  background-color: transparent;
+  margin-left: 0;
+  margin-right: -10px;
+  min-width: 50px;
+  text-align: center;
 }
 
-input {
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+.input-field {
   width: 100%;
   padding: 10px;
   left: 25px;
   text-align: left;
 }
-input,
+.input-field,
 textarea {
-  border: 2px #e0e0e9 solid;
+  border: none;
   padding: 12px;
   border-radius: 8px;
 }
 
 textarea {
+  color: #222;
   background-color: #f9f9fb;
+  resize: none;
 }
 
-input:focus,
+.input-container:focus-within,
+.icon:focus {
+  outline: none;
+  color: #0c75ff;
+  border: 2px #0c75ff solid;
+}
+
 textarea:focus {
   outline: none;
+  font-family: "Muli";
+  font-size: 14px;
   border: 2px #0c75ff solid;
 }
 
@@ -155,12 +181,13 @@ textarea::placeholder {
 
 .sendBtn {
   margin-top: 20px;
-  padding: 14px 25px;
+  padding: 10px 22px;
   width: fit-content;
   background-color: rgba(187, 187, 187, 0.393);
-  margin-left: 200px;
+  margin-left: 202px;
   border: none;
   border-radius: 8px;
+  cursor: pointer;
 }
 
 .sendBtn:hover {
