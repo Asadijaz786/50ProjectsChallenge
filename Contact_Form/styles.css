@@ -30,7 +30,6 @@ h1 {
 }
 
 .contact-container {
-  /* width: 50%; */
   width: 350px;
   float: left;
 }
@@ -41,10 +40,10 @@ h1 {
 }
 .contact-text {
   margin-left: 8px;
-  color: #dddde6;
+  color: #d0d2eb;
   font-size: 16px;
   text-align: left;
-1}
+}
 .p-text {
   margin-left: 10px;
   color: #9495b3;
@@ -73,6 +72,7 @@ h1 {
   color: #0c75ff;
   font-size: 18px;
   margin-top: 19px;
+  margin-right: 10px;
 }
 
 .socials {
@@ -171,7 +171,8 @@ textarea {
 textarea:focus {
   outline: none;
   font-family: "Muli";
-  font-size: 14px;
+  font-size: 12px;
+
   border: 2px #0c75ff solid;
 }
 
@@ -184,7 +185,7 @@ textarea::placeholder {
   padding: 10px 22px;
   width: fit-content;
   background-color: rgba(187, 187, 187, 0.393);
-  margin-left: 202px;
+  margin-left: 206px;
   border: none;
   border-radius: 8px;
   cursor: pointer;
@@ -195,8 +196,6 @@ textarea::placeholder {
   transition: 0.3s;
   color: white;
 }
-
-
 
 .close-modal {
   position: absolute;
@@ -209,7 +208,7 @@ textarea::placeholder {
   background: none;
 }
 
-.tick{
+.tick {
   position: relative;
   font-size: 80px;
   width: 90px;
@@ -221,23 +220,20 @@ textarea::placeholder {
   display: flex;
   color: #0c75ff;
   align-items: center;
-  justify-content:center ;
+  justify-content: center;
 }
 
-h1 {
+#text {
   font-size: 42px;
   margin-bottom: 20px;
   text-align: center;
 }
 
-p {
+#p {
   font-size: 20px;
   text-align: center;
 }
 
-
-/* -------------------------- */
-/* CLASSES TO MAKE MODAL WORK */
 .hidden {
   display: none;
 }

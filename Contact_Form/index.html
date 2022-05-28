@@ -30,10 +30,7 @@
             <i class="fas fa-envelope contact-icon"> </i>
             <p class="contact-text">example@services.com</p>
           </a>
-          <a
-            href="address:street 5, west park, Carolina"
-            class="addressBtn btn"
-          >
+          <a href="#" class="addressBtn btn">
             <i class="fas fa-location-dot contact-icon"></i>
             <p class="contact-text">street 5, west park, Carolina</p>
           </a>
@@ -52,12 +49,12 @@
         <label for="name">Your Name </label>
         <div class="input-container">
           <i class="fa fa-user icon"></i>
-          <input class="input-field" type="text" name="usrnm" />
+          <input class="input-field" type="text" name="usrname" />
         </div>
         <label for="name">Mail </label>
         <div class="input-container">
           <i class="fa fa-envelope icon"></i>
-          <input class="input-field" type="text" name="usrnm" />
+          <input class="input-field" type="text" name="usrname" />
         </div>
 
         <label for="name">Message </label>
@@ -67,17 +64,17 @@
           name="text"
           id="message"
           cols="30"
-          rows="10"
+          rows="11"
         ></textarea>
         <button class="sendBtn">Send Message</button>
       </div>
     </div>
+
     <div class="modal hidden">
-      <!-- <img src="image.jpg" align="left" valign="middle" vspace="5" hspace="5" /> -->
       <button class="close-modal">&times;</button>
       <i class="fa-solid fa-circle-check tick"></i>
-      <h1>Thanks!</h1>
-      <p>You will be hearing from us soon!</p>
+      <h1 id="text">Thanks!</h1>
+      <p id="p">You will be hearing from us soon!</p>
     </div>
     <div class="overlay hidden"></div>
     <script src="script.js"></script>
