@@ -5,7 +5,7 @@
 }
 
 body {
-  background-image: linear-gradient(90deg, #88b6f7, #d1def0);
+  background-image: linear-gradient(90deg, #fbe1d8, #fee9dd);
 
   font-family: "Odibee Sans", sans-serif;
   display: flex;
@@ -18,7 +18,7 @@ body {
 
 .container {
   text-align: center;
-  background-color: rgb(250, 133, 94);
+  background-color: #fa855e;
   color: aliceblue;
   padding: 20px 20px 30px 20px;
   border-radius: 15px;
