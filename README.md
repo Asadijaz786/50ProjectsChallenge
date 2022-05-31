@@ -35,4 +35,4 @@ This Repo contains 50 projects created with HTML, CSS and JavaScript. 😍
 
 ### Support or Contact
 
-Having any trouble with Projects? Contact me at [Twitter](https://twitter.com/Asad_099) and i’ll help you sort it out. 🙂
+Having any trouble with Projects? Contact me at [Twitter](https://twitter.com/Asad_js) and i’ll help you sort it out. 🙂
